@@ -1,0 +1,39 @@
+.header {
+  padding-top: 10px;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  flex-shrink: 0;
+  margin-right: 250px;
+}
+
+.logo__image {
+  width: 84px;
+  height: 63px;
+}
+
+.header__menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__link {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--main-text-color);
+}
+
+.header__link:hover {
+  color: var(--button-color);
+}
+
+.header__link:focus {
+  color: var(--button-color);
+  opacity: 0.5;
+}
