@@ -1,5 +1,12 @@
 html {
   height: 100%;
+  --primary-color: #fff;
+  --secondary-color: #67568c;
+  --tertiary-color: #fbdd74;
+  --button-color: #ff6e6c;
+  --button-text-color: #1f1235;
+  --heading-text-color: #1f1235;
+  --main-text-color: #1b1425;
 }
 
 body {
@@ -12,6 +19,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--main-text-color);
 }
 
 code {
@@ -21,6 +29,16 @@ code {
 
 h1, h2, h3, h4, h5, h6, p, ul {
 	margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 img {
