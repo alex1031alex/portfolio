@@ -1,0 +1,31 @@
+.about__title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about__subtitle {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.about__text {
+    margin-bottom: 10px;
+    color: var(--main-text-color);
+    font-size: 20px;
+}
+
+.about__text--top {
+    margin-bottom: 18px;
+}
+
+.about__skills {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__skills-group {
+    text-align: center;
+}
