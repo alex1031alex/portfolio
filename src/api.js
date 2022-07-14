@@ -1,6 +1,7 @@
 import { initializeApp } from 'firebase/app';
 import {collection, getDocs, getFirestore} from 'firebase/firestore';
 
+const COLLECTION_NAME = 'works';
 export const initializeAPI = () => {
   const firebaseApp = initializeApp({
     apiKey: "AIzaSyBiiOZhYFjopT5X3VoAgC3k1X__OmQ7gDQ",
@@ -14,4 +15,25 @@ export const initializeAPI = () => {
   getFirestore(firebaseApp);
 
   return firebaseApp;
+};
+
+export const getWorks = async () => {
+  const db = getFirestore();
+  const works = [];
+
+  try {
+    const querySnapshot = await getDocs(collection(db, COLLECTION_NAME));
+
+    querySnapshot.forEach((doc) => {
+      const data = doc.data();
+      works.push({
+        id: doc.id,
+        ...data,
+      });
+    });
+  } catch(error) {
+    return Promise.reject(error);
+  }
+
+  return works;
 };
