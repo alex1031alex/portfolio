@@ -7,7 +7,7 @@ export const Header = () => {
       <div className="container">
         <nav className="navigation header__navigation">
           <div className="logo header__logo">
-            <img className="logo__image" src="./logo.png" width="84" height="63" alt="alex logo"/>
+            <img className="logo__image" src="./img/logo.png" width="84" height="63" alt="alex logo"/>
           </div>
           <ul className="header__menu">
             <li className="header__menu-item">

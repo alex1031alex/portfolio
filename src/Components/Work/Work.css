@@ -1,3 +1,29 @@
+.work {
+    border-radius: 5px;
+}
+
+.work:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #ddd;
+    color: var(--button-color);
+}
+
+.work:active {
+    background-color: #bbb;
+    color: var(--main-text-color);
+}
+
 .work__title {
     text-align: center;
+}
+
+.work__icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.work__year {
+    margin-left: auto;
+    font-weight: bold;
 }

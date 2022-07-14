@@ -7,7 +7,7 @@ export const Greeting = () => {
       <div className="greeting__container container">
         <div className="greeting__column greeting__column--left">
           <p>
-            <img className="greeting__image" src="./alex.png" alt="alex photo"/>
+            <img className="greeting__image" src="./img/alex.png" alt="alex photo"/>
           </p>
         </div>
         <div className="greeting__column greeting__column--right">
