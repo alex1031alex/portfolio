@@ -14,7 +14,7 @@ export const Works = () => {
   }, []);
 
   return (
-    <section className="works main__works">
+    <section id="works" className="works main__works">
       <div className="container">
         <h2 className="works__title">Works</h2>
         <div className="works__container">
