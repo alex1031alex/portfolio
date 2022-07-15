@@ -1,0 +1,35 @@
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__logo {
+    flex-shrink: 0;
+    margin-right: 250px;
+}
+
+.logo__image {
+    width: 84px;
+    height: 63px;
+}
+
+.navigation__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__link {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-text-color);
+}
+
+.navigation__link:hover {
+    color: var(--button-color);
+}
+
+.navigation__link:focus {
+    color: var(--button-color);
+    opacity: 0.5;
+}
