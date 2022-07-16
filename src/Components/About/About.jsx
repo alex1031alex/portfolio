@@ -8,7 +8,7 @@ export const About = () => {
         <h2 className="about__title">About me</h2>
         <p className="about__text about__text--top">
           I'am Alexey Alexandrov, frontend-developer from Minsk. I've been doing web
-          development as a hobby since 2015. I create both static websites (including responsive and adaptive)
+          development as a hobby since 2016. I create both static websites (including responsive and adaptive)
           and single-page applications. I enjoy coding.
         </p>
         <div className="about__skills">

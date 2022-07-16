@@ -1,12 +1,28 @@
 .greeting {
-    background: linear-gradient(75deg,
-    var(--button-color) 50%,
-    #eee 50%);
+    position: relative;
+    padding: 200px 0;
+    background-image: url("/public/img/bg-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /*background: linear-gradient(75deg,*/
+    /*var(--tertiary-color) 0%,  #fff 50%,*/
+    /*#fff 50%, #ddd 100%);*/
+}
+
+.greeting__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #101010;
+    opacity: 0.8;
 }
 
 .greeting__container {
+    position: relative;
     display: flex;
-    padding: 200px 0;
 }
 
 .greeting__column {
@@ -28,7 +44,6 @@
 .greeting__title {
     width: 75%;
     margin-bottom: 50px;
-    color: var(--heading-text-color);
     font-size: 24px;
     font-weight: bold;
 }

@@ -5,7 +5,9 @@ export const Navigation = () => {
   return (
     <nav className="navigation">
       <div className="logo navigation__logo">
-        <img className="logo__image" src="./img/logo.png" width="84" height="63" alt="alex logo"/>
+        <a href="#greeting">
+          <img className="logo__image" src="./img/logo.png" width="84" height="63" alt="alex logo"/>
+        </a>
       </div>
       <ul className="navigation__list">
         <li className="navigation__item">
