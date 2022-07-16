@@ -1,6 +1,7 @@
 .footer {
     padding: 20px 0 30px;
     background-color: var(--secondary-color);
+    color: #fff;
 }
 
 .footer__row {
