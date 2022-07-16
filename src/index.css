@@ -46,3 +46,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
