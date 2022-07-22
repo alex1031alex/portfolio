@@ -1,26 +1,27 @@
 import "./Navigation.css";
 import React from "react";
+import {Link} from "react-router-dom";
 
 export const Navigation = () => {
   return (
     <nav className="navigation">
       <div className="logo navigation__logo">
-        <a href="#greeting">
-          <img className="logo__image" src="./img/logo.png" width="84" height="63" alt="alex logo"/>
-        </a>
+        <Link to="/">
+          <img className="logo__image" src="/img/logo.png" width="84" height="63" alt="alex logo"/>
+        </Link>
       </div>
       <ul className="navigation__list">
         <li className="navigation__item">
-          <a href="#home" className="navigation__link">Home</a>
+          <Link to="/" className="navigation__link">Home</Link>
         </li>
         <li className="navigation__item">
-          <a href="#about" className="navigation__link">About</a>
+          <Link to="/about" className="navigation__link">About</Link>
         </li>
         <li className="navigation__item">
-          <a href="#works" className="navigation__link">Works</a>
+          <Link to="/works" className="navigation__link">Works</Link>
         </li>
         <li className="navigation__item">
-          <a href="#contacts" className="navigation__link">Contacts</a>
+          <Link to="/contacts" className="navigation__link">Contacts</Link>
         </li>
       </ul>
     </nav>

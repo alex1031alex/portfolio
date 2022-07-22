@@ -9,9 +9,8 @@ export const Works = () => {
     (async () => {
       const worksRawData = await getWorks();
       setWorks(worksRawData);
-      console.log(worksRawData);
     })();
-  }, []);
+  },[]);
 
   return (
     <section id="works" className="works main__works">

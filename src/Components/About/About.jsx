@@ -12,7 +12,7 @@ export const About = () => {
           and single-page applications. I enjoy coding.
         </p>
         <div className="about__skills">
-          <div className="about__skills-group">
+          <div className="about__skills-group about__skills-group--langs">
             <h3 className="about__subtitle">Languages</h3>
             <ul>
               <li>
@@ -29,8 +29,8 @@ export const About = () => {
               </li>
             </ul>
           </div>
-          <div className="about__skills-group">
-            <h3 className="about__subtitle">Frameworks/libraries</h3>
+          <div className="about__skills-group about__skills-group--libs">
+            <h3 className="about__subtitle">Libraries</h3>
             <ul>
               <li>
                 <p className="about__text">Material UI</p>
@@ -46,7 +46,7 @@ export const About = () => {
               </li>
             </ul>
           </div>
-          <div className="about__skills-group">
+          <div className="about__skills-group about__skills-group--tools">
             <h3 className="about__subtitle">Dev Tools</h3>
             <ul>
               <li>
