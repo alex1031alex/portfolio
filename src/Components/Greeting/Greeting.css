@@ -21,14 +21,15 @@
 }
 
 .greeting__container {
-    position: relative;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .greeting__column {
     display: flex;
     align-items: center;
     width: 50%;
+    min-width: 270px;
     flex-shrink: 0;
 }
 
