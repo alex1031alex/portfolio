@@ -1,8 +1,17 @@
 import "./Navigation.css";
-import React from "react";
+import React, {useState} from "react";
 import {Link} from "react-router-dom";
 
 export const Navigation = () => {
+  const [isBurgerOpen, setIsBurgerOpen] = useState(false);
+  const onBurgerClick = () => {
+    setIsBurgerOpen(true);
+  };
+
+  const onCloseButtonClick = () => {
+    setIsBurgerOpen(false);
+  };
+
   return (
     <nav className="navigation">
       <div className="logo navigation__logo">
@@ -10,7 +19,15 @@ export const Navigation = () => {
           <img className="logo__image" src="/img/logo.png" width="84" height="63" alt="alex logo"/>
         </Link>
       </div>
-      <ul className="navigation__list">
+      <div className={`navigation__burger ${isBurgerOpen && "close"}`} onClick={onBurgerClick}>
+        <div className="navigation__burger-item"/>
+        <div className="navigation__burger-item"/>
+        <div className="navigation__burger-item"/>
+      </div>
+      <button className={`navigation__close-btn ${isBurgerOpen && "open" }`} onClick={onCloseButtonClick}>
+        <span className="visually-hidden">Close menu</span>
+      </button>
+      <ul className={`navigation__list ${isBurgerOpen && "open"}`}>
         <li className="navigation__item">
           <Link to="/" className="navigation__link">Home</Link>
         </li>
