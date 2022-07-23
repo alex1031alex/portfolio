@@ -1,0 +1,115 @@
+.navigation {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    --close-btn-element-hight: 4px;
+}
+
+.navigation__logo {
+    flex-shrink: 0;
+}
+
+.logo__image {
+    width: 84px;
+    height: 63px;
+}
+
+.navigation__list {
+    width: 60%;
+    min-height: 54px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navigation__item:nth-child(even) {
+    align-self: flex-end;
+}
+
+.navigation__link {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: inherit;
+}
+
+.navigation__link:hover {
+    opacity: 0.7;
+}
+
+.navigation__link:focus {
+    opacity: 0.2;
+}
+
+.navigation__close-btn {
+    display: none;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+@media(max-width: 767px) {
+    .navigation {
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .navigation__logo {
+        margin-right: auto;
+    }
+
+    .navigation__list {
+        display: none;
+        width: auto;
+        padding: 30px 30px 0 20px;
+        flex-direction: column;
+        background-color: var(--button-color);
+    }
+
+    .navigation__item {
+        margin-bottom: 20px;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .close {
+        display: none;
+    }
+
+    .navigation__burger-item {
+        width: 50px;
+        height: 5px;
+        margin-bottom: 6px;
+        background-color: var(--main-text-color);
+    }
+
+    .navigation__close-btn {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 0;
+        right: 0;
+    }
+
+    .navigation__close-btn::before,
+    .navigation__close-btn::after {
+        content: "";
+        width: 26px;
+        height: var(--close-btn-element-hight);
+        top: calc(50% - var(--close-btn-element-hight) / 2);
+        left: 0;
+        position: absolute;
+        background-color: var(--main-text-color);
+    }
+
+    .navigation__close-btn::before {
+        transform: rotate(45deg);
+    }
+
+    .navigation__close-btn::after {
+        transform: rotate(-45deg);
+    }
+}

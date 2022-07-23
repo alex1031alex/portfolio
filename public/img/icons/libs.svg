@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+	 width="120" height="120" viewBox="-32 -32 220 220" xml:space="preserve"
+	 stroke="#fff" stroke-width="1.5" fill="none">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 74.22 73.66)" id="dPxt1WiTI_Hs8V3rkuPCn"  >
+<g>
+		<g transform="matrix(1 0 0 1 -52.7 -6.73)" id="book1"  >
+<path vector-effect="non-scaling-stroke"  transform=" translate(-12.5, -44)" d="M 0 0 L 25 0 L 25 88 L 0 88 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -52.88 -44.16)" id="book1root3"  >
+<path fill="#fff" vector-effect="non-scaling-stroke"
+	  transform=" translate(-8.5, -3.5)" d="M 0 0 L 17 0 L 17 7 L 0 7 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -52.53 -32.16)" id="book1root2"  >
+<path fill="#fff" vector-effect="non-scaling-stroke"
+	  transform=" translate(-8.5, -3.5)" d="M 0 0 L 17 0 L 17 7 L 0 7 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -52.88 29.84)" id="book1root1"  >
+<path fill="#fff" vector-effect="non-scaling-stroke"
+	  transform=" translate(-8.5, -3.5)" d="M 0 0 L 17 0 L 17 7 L 0 7 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -20.53 -6.73)" id="book2"  >
+<path vector-effect="non-scaling-stroke"  transform=" translate(-12.5, -44)" d="M 0 0 L 25 0 L 25 88 L 0 88 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -20.88 -44.16)" id="book2root2"  >
+<path
+		fill="#fff" vector-effect="non-scaling-stroke"
+		transform=" translate(-8.5, -3.5)" d="M 0 0 L 17 0 L 17 7 L 0 7 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -20.53 -32.16)" id="book2root1"  >
+<path
+		fill="#fff" vector-effect="non-scaling-stroke"
+		transform=" translate(-8.5, -3.5)" d="M 0 0 L 17 0 L 17 7 L 0 7 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 53.3 -6.73)" id="book4"  >
+<path vector-effect="non-scaling-stroke"
+	   transform=" translate(-12.5, -44)" d="M 0 0 L 25 0 L 25 88 L 0 88 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 53.47 -43.73)" id="book4root4"  >
+<path  fill="#fff" vector-effect="non-scaling-stroke"
+	   transform=" translate(-8.5, -3.5)" d="M 0 0 L 17 0 L 17 7 L 0 7 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 53.47 -32.73)" id="book4root3"  >
+<path fill="#fff" vector-effect="non-scaling-stroke"
+	  transform=" translate(-8.5, -3.5)" d="M 0 0 L 17 0 L 17 7 L 0 7 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 53.47 29.84)" id="book4root2"  >
+<path fill="#fff" vector-effect="non-scaling-stroke"
+	  transform=" translate(-8.5, -3.5)" d="M 0 0 L 17 0 L 17 7 L 0 7 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -20.53 25.56)" id="book2circle"  >
+<path fill="#fff" vector-effect="non-scaling-stroke"
+	  transform=" translate(-7.5, -7.5)" d="M 7.5 0 C 11.64 0 15 3.36 15 7.5 C 15 11.64 11.64 15 7.5 15 C 3.3600000000000003 15 0 11.64 0 7.5 C 0 3.3600000000000003 3.36 0 7.5 0 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 53.47 -4.45)" id="book4root1"  >
+<path fill="#fff" vector-effect="non-scaling-stroke"
+	  transform=" translate(-8.5, -3.5)" d="M 0 0 L 17 0 L 17 7 L 0 7 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0 47.39)" id="shelf"  >
+<path vector-effect="non-scaling-stroke"
+	  transform=" translate(-72.28, -5)" d="M 0 0 L 144.56193 0 L 144.56193 10 L 0 10 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(0.98 -0.19 0.19 0.98 16.31 -6.73)" id="book3"  >
+<path vector-effect="non-scaling-stroke"
+	  transform=" translate(-12.5, -44)" d="M 0 0 L 25 0 L 25 88 L 0 88 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(0.98 -0.19 0.19 0.98 8.98 -43.44)" id="book3root3">
+<path fill="#fff" vector-effect="non-scaling-stroke"
+	  transform=" translate(-8.5, -3.5)" d="M 0 0 L 17 0 L 17 7 L 0 7 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(0.98 -0.19 0.19 0.98 11.27 -31.66)" id="book3root2">
+<path fill="#fff" vector-effect="non-scaling-stroke"
+	  transform=" translate(-8.5, -3.5)" d="M 0 0 L 17 0 L 17 7 L 0 7 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(0.98 -0.19 0.19 0.98 23.1 29.2)" id="book3root1">
+<path fill="#fff" vector-effect="non-scaling-stroke"
+	  transform=" translate(-8.5, -3.5)"
+	  d="M 0 0 L 17 0 L 17 7 L 0 7 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>
