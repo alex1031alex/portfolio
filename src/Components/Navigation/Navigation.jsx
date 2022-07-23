@@ -12,10 +12,16 @@ export const Navigation = () => {
     setIsBurgerOpen(false);
   };
 
+  const onLinkClick = () => {
+      if (isBurgerOpen) {
+        setIsBurgerOpen(false);
+      }
+  };
+
   return (
     <nav className="navigation">
       <div className="logo navigation__logo">
-        <Link to="/">
+        <Link to="/" onClick={onLinkClick}>
           <img className="logo__image" src="/img/logo.png" width="84" height="63" alt="alex logo"/>
         </Link>
       </div>
@@ -29,16 +35,16 @@ export const Navigation = () => {
       </button>
       <ul className={`navigation__list ${isBurgerOpen && "open"}`}>
         <li className="navigation__item">
-          <Link to="/" className="navigation__link">Home</Link>
+          <Link to="/" className="navigation__link" onClick={onLinkClick}>Home</Link>
         </li>
         <li className="navigation__item">
-          <Link to="/about" className="navigation__link">About</Link>
+          <Link to="/about" className="navigation__link" onClick={onLinkClick}>About</Link>
         </li>
         <li className="navigation__item">
-          <Link to="/works" className="navigation__link">Works</Link>
+          <Link to="/works" className="navigation__link" onClick={onLinkClick}>Works</Link>
         </li>
         <li className="navigation__item">
-          <Link to="/contacts" className="navigation__link">Contacts</Link>
+          <Link to="/contacts" className="navigation__link" onClick={onLinkClick}>Contacts</Link>
         </li>
       </ul>
     </nav>
