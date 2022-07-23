@@ -1,13 +1,13 @@
 .navigation {
     position: relative;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     --close-btn-element-hight: 4px;
 }
 
 .navigation__logo {
     flex-shrink: 0;
-    margin-right: 26%;
 }
 
 .logo__image {
@@ -16,7 +16,7 @@
 }
 
 .navigation__list {
-    width: 100%;
+    width: 60%;
     min-height: 54px;
     display: flex;
     flex-wrap: wrap;
@@ -35,11 +35,11 @@
 }
 
 .navigation__link:hover {
-    color: var(--button-color);
+    color: var(--primary-color);
 }
 
 .navigation__link:focus {
-    color: var(--button-color);
+    color: var(--primary-color);
     opacity: 0.5;
 }
 

@@ -1,6 +1,6 @@
 .greeting {
     position: relative;
-    padding: 200px 0;
+    padding: 26% 0;
     background-image: url("/public/img/bg-main.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,6 +21,7 @@
 }
 
 .greeting__container {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
 }
@@ -64,4 +65,27 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 14px;
+}
+
+@media(max-width: 767px) {
+    .greeting {
+        padding: 18% 0;
+    }
+
+    .greeting__container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .greeting__column {
+        width: 100%;
+    }
+
+    .greeting__column--left {
+        margin-bottom: 40px;
+    }
+
+    .greeting__title {
+        margin-bottom: 30px;
+    }
 }

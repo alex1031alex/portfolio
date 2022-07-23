@@ -26,15 +26,15 @@
 
 .about__skills {
     padding: 0 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    justify-items: center;
 }
 
 .about__skills-group {
     position: relative;
-    width: 27%;
-    min-width: 200px;
+    /*width: 27%;*/
+    min-width: 160px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -63,4 +63,18 @@
 .about__skills-group--tools::before {
     background-color: var(--secondary-color);
     background-image: url("/public/img/icons/tools.svg");
+}
+
+@media(max-width: 767px) {
+    .about__text--top {
+        text-align: center;
+    }
+
+    .about__skills-group {
+        margin-bottom: 20px;
+    }
+
+    .about__skills-group::before {
+        margin-bottom: 15px;
+    }
 }
