@@ -7,7 +7,7 @@ export const Work = ({work}) => {
       <a href={work.link} title="go to repository">
         <h3 className="work__title">{work.name}</h3>
         <p className="work__image-container">
-          {work.image && <img src={work.image} />}
+          {work.image && <img src={work.image} alt="" />}
         </p>
       </a>
       <div className="work__icon-container">
