@@ -4,7 +4,7 @@ import React from "react";
 export const Work = ({work}) => {
   return (
     <div className="work">
-      <a href={work.link} title="go to repository">
+      <a href={work.link} title="go to repository" target="_blank">
         <h3 className="work__title">{work.name}</h3>
         <p className="work__image-container">
           {work.image && <img src={work.image} alt="" />}
