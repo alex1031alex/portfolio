@@ -16,7 +16,7 @@ export const Work = ({work}) => {
             return null;
           }
           return <div key={`$work.id-${it}`}>
-            <img src={`./img/icons/${it}.svg`} alt={`icon${it}`}/>
+            <img src={`/img/icons/${it}.svg`} alt={`icon${it}`}/>
           </div>;
         })}
         <p className="work__year">{work.year}</p>
