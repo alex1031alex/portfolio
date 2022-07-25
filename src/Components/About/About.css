@@ -70,7 +70,12 @@
         text-align: center;
     }
 
+    .about__skills {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
     .about__skills-group {
+        min-width: 200px;
         margin-bottom: 20px;
     }
 
