@@ -2,16 +2,19 @@ import "./Work.css";
 import React from "react";
 
 export const Work = ({work}) => {
+  const {name,link, site, image, langs, year} = work;
   return (
     <div className="work">
-      <a href={work.link} title="go to repository" target="_blank">
-        <h3 className="work__title">{work.name}</h3>
+      <div className="work__buttons">
+        {link && <a href={link} rel="noreferrer" target="_blank" className="work__btn work__btn--github">To Github</a>}
+        {site && <a href={site} rel="noreferrer" target="_blank" className="work__btn work__btn--website">To Website</a>}
+      </div>
+        <h3 className="work__title">{name}</h3>
         <p className="work__image-container">
-          {work.image && <img src={work.image} alt="" />}
+          {image && <img src={image} alt="" />}
         </p>
-      </a>
       <div className="work__icon-container">
-        {work.langs.map((it, index) => {
+        {langs.map((it, index) => {
           if (index > 2) {
             return null;
           }
@@ -19,7 +22,7 @@ export const Work = ({work}) => {
             <img src={`/img/icons/${it.toLowerCase()}.svg`} alt={`icon${it}`}/>
           </div>;
         })}
-        <p className="work__year">{work.year}</p>
+        <p className="work__year">{year}</p>
       </div>
     </div>
   );

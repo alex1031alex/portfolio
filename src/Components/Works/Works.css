@@ -11,6 +11,7 @@
 
 .works__item {
     max-width: 300px;
+    margin-bottom: 10px;
 }
 
 .works__container {
