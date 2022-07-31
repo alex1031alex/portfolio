@@ -1,17 +1,45 @@
 .work {
+    position: relative;
     border-radius: 5px;
 }
 
-.work:hover {
-    cursor: pointer;
-    opacity: 0.8;
-    background-color: #ddd;
-    color: var(--button-color);
+.work__buttons {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
-.work:active {
-    background-color: #bbb;
-    color: var(--main-text-color);
+.work__btn {
+    position: absolute;
+    left: 30%;
+    display: block;
+    min-width: 40%;
+    border: none;
+    padding: 20px 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #444;
+    transition: all 0.7s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.work__btn--github {
+    background-color: #59ea3a;
+    top: 25%;
+}
+
+.work__btn--website {
+    background-color: #55acee;
+    bottom: 25%;
+}
+
+.work:hover {
+    background-color: #ddd;
+    color: var(--button-color);
 }
 
 .work__title {
@@ -33,3 +61,27 @@
     margin-left: auto;
     font-weight: bold;
 }
+
+@media(hover: hover) and (pointer: fine) {
+    .work__buttons {
+        display: none;
+    }
+
+    .work:hover .work__buttons {
+        display: block;
+    }
+
+    .work__btn:hover {
+        color: #fff;
+    }
+
+    .work__btn--github:hover {
+        background-color: #00a383;
+    }
+
+    .work__btn--website:hover {
+        background-color: #0b61a4;
+    }
+}
+
+
