@@ -6,13 +6,8 @@
     --close-btn-element-hight: 4px;
 }
 
-.navigation__logo {
+.navigation__logo-link {
     flex-shrink: 0;
-}
-
-.logo__image {
-    width: 84px;
-    height: 63px;
 }
 
 .navigation__list {
@@ -29,7 +24,7 @@
 
 .navigation__link {
     display: block;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     color: inherit;
 }
