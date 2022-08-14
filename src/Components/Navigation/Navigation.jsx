@@ -1,6 +1,7 @@
 import "./Navigation.css";
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
+import {Logo} from "../Logo/Logo";
 
 export const Navigation = () => {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
@@ -20,11 +21,9 @@ export const Navigation = () => {
 
   return (
     <nav className="navigation">
-      <div className="logo navigation__logo">
-        <Link to="/" onClick={onLinkClick}>
-          <img className="logo__image" src="/img/logo.png" width="84" height="63" alt="alex logo"/>
-        </Link>
-      </div>
+      <Link className="navigaton-logo-link" to="/" onClick={onLinkClick}>
+        <Logo />
+      </Link>
       <div className={`navigation__burger ${isBurgerOpen && "close"}`} onClick={onBurgerClick}>
         <div className="navigation__burger-item"/>
         <div className="navigation__burger-item"/>
